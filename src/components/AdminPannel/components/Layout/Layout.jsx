@@ -58,4 +58,4 @@ function Layout(props) {
   );
 }
 
-export default withRouter(Layout);
+export default Layout;

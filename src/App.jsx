@@ -9,7 +9,6 @@ import Login from './components/AdminPannel/pages/login/Login';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

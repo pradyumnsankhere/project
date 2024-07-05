@@ -11,11 +11,10 @@ import ServicePage from './pages/ServicePage.jsx';
 import AdminRoot from './components/AdminPannel/components/AdminRoot.jsx';
 import { ThemeProvider } from "@material-ui/styles";
 import { CssBaseline } from "@material-ui/core";
-
 import themes from './components/AdminPannel/themes';
 import { LayoutProvider } from "./components/AdminPannel/context/LayoutContext.jsx";
 import { UserProvider } from "./components/AdminPannel/context/UserContext.jsx";
-
+ 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
